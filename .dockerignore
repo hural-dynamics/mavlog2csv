@@ -1,0 +1,56 @@
+# Git
+.git
+.gitignore
+.github
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info
+dist
+build
+.eggs
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Testing
+.pytest_cache
+.coverage
+htmlcov/
+tests/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Documentation
+*.md
+!README.md
+
+# CI/CD
+.pre-commit-config.yaml
+poetry.lock
+pyproject.toml
+
+# Logs e dados de teste
+*.bin
+*.log
+*.tlog
+*.csv
+data/
+
+# OS
+.DS_Store
+Thumbs.db
+
